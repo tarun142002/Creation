@@ -1,0 +1,24 @@
+/* -----------------------*/
+/*------------------------*/
+
+.lg {
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    /* font-family: Georgia; */
+    color: #ffffff;
+    font-size: 18px;
+    background: #dc3545;
+    padding: 6px 10px 6px 10px;
+    text-decoration: none;
+  }
+  
+  .lg:hover {
+    background: #E5FCF5;
+    text-decoration: none;
+  }
+
+.col:hover{
+    background: #E5FCF5;
+}

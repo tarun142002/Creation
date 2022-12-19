@@ -43,22 +43,20 @@
                         </li>
 
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex mx-1" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit" disabled>Search</button>
                     </form>
-                    <div class="mx-2 ">
-                        <button class="btn btn-danger" data-bs-toggle="modal"
-                            data-bs-target="#loginModal">LogIn</button>
-                        <button class="btn btn-danger" data-bs-toggle="modal"
-                            data-bs-target="#signupModal">SignUp</button>
+                    <div class="login">
+                        <a class="lg" href="login.html">LogIn</a>
+                        <a class="lg" href="login.html">SignUp</a>
                     </div>
                 </div>
             </div>
         </nav>
 
         <!-- login Modal -->
-        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -84,9 +82,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- sinup Modal -->
-        <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -116,7 +114,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
     </div>
@@ -182,7 +180,7 @@
                             <p class="card-text mb-auto">Goa, is famous for its beaches and places of worship.</p>
                             <a href="goa.html" class="stretched-link">Continue reading</a>
                         </div>
-                        <div class="col-auto d-none d-lg-block">
+                        <div id="goa" class="col-auto d-none d-lg-block">
                             <img  class="bd-placeholder-img" width="200" height="250" src="image/goa.jpg"
                                 alt="https://source.unsplash.com/200x250/?nature,goa">
                         </div>
