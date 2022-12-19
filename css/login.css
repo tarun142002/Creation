@@ -150,7 +150,7 @@ div.conainer {
 .box-form {
     margin: -4% auto;
     margin-top: 1%;
-    width: 80%;
+    width: 75%;
     background: #FFFFFF;
     border-radius: 10px;
     overflow: hidden;
@@ -183,12 +183,13 @@ div.conainer {
 }
 
 .box-form .left .overlay {
-    padding: 30px;
+    padding: 150px 30px 30px 30px;
     width: 100%;
     height: 100%;
     background: #5961f9ad;
     overflow: hidden;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .box-form .left .overlay h1 {
@@ -199,16 +200,18 @@ div.conainer {
     margin-bottom: 20px;
 }
 
-.box-form .left .overlay span p {
+.box-form .left .overlay  span p {
     color: white;
     margin-top: 30px;
     font-weight: 900;
+    text-align: center;
 }
 
 .box-form .left .overlay span a {
     border-radius: 100px;
     display: inline-block;
     padding-left: 2px;
+    text-align: center;
 }
 
 .box-form .left .overlay span a:last-child {
