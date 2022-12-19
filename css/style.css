@@ -1,24 +1,29 @@
 /* -----------------------*/
 /*------------------------*/
-
+div.top{
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+}
 .lg {
-    -webkit-border-radius: 11;
-    -moz-border-radius: 11;
-    border-radius: 8px;
-    text-shadow: 1px 1px 3px #666666;
-    /* font-family: Georgia; */
-    color: #ffffff;
-    font-size: 18px;
-    background: #dc3545;
+    /* -webkit-border-radius: 11; */
+    /* -moz-border-radius: 11; */
+    border-radius: 10px;
+    /* text-shadow: 1px 1px 3px #666666; */
+    color: white;
+    font-size: 15px;
+    /* background: #ff9f1c; */
     padding: 6px 10px 6px 10px;
     text-decoration: none;
   }
   
   .lg:hover {
-    background: #E5FCF5;
+    /* background: #E5FCF5; */
+    color: white;
     text-decoration: none;
   }
 
 .col:hover{
-    background: #E5FCF5;
+    background: #ffbf69;
 }

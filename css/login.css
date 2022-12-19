@@ -148,7 +148,7 @@ div.conainer {
 /*---------box------------*/
 
 .box-form {
-    margin: -4% auto;
+    margin: -2% auto;
     margin-top: 1%;
     width: 75%;
     background: #FFFFFF;
@@ -193,7 +193,7 @@ div.conainer {
 }
 
 .box-form .left .overlay h1 {
-    font-size: 10vmax;
+    font-size: 8vmax;
     line-height: 1;
     font-weight: 900;
     margin-top: 40px;
@@ -230,7 +230,7 @@ div.conainer {
 }
 
 .box-form .right h5 {
-    font-size: 6vmax;
+    font-size: 5vmax;
     line-height: 0;
 }
 
@@ -244,7 +244,7 @@ div.conainer {
 }
 
 .box-form .right input {
-    width: 100%;
+    width: 85%;
     padding: 10px;
     margin-top: 25px;
     font-size: 16px;
@@ -318,5 +318,8 @@ label span.text-checkbox {
 label input[type="checkbox"] {
     display: none;
 }
-
+.iconn{
+    color: gray;
+    border-bottom: 2px;
+}
 /*------------------------*/
