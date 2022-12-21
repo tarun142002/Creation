@@ -54,6 +54,7 @@ div.con1 {
   border-radius: 10px;
   overflow: hidden;
   display: flex;
+  flex-flow: wrap;
   flex-grow: 1;
   flex: 1 1 100%;
   align-items: stretch;
@@ -137,6 +138,7 @@ textarea {
 }
 
 .social {
+  padding-top: 10%;
   display: flex;
   justify-content: center;
 
