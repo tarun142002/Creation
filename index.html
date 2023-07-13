@@ -2,261 +2,120 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="image/landscape.png">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    
-
-    <title>Creation</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="image/Creation.png" />
+  <!-- CSS only -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Creation</title>
 </head>
 
-
-
 <body>
-
-
-    <div class="top">
-        <nav class="navbar navbar-expand-lg bg-light navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Creation</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ContactUS.html">Contact Us</a>
-                        </li>
-
-                    </ul>
-                    <form class="d-flex mx-1" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit" disabled>Search</button>
-                    </form>
-                    <div class="login my-2">
-                        <a class="lg" href="login.html">LogIn</a>
-                        <a class="lg" href="login.html">SignUp</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <!-- login Modal -->
-        <!-- <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="loginModalLabel">LogIn To Creation</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- sinup Modal -->
-        <!-- <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="signupModalLabel">SignUp To Creation</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Create Account</button>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
+  <!-- header -->
+  <header>
+    <div class="left">
+      <div class="logo">
+        <ul>
+          <li>
+            <a href="/index.html"><img src="/image/Creation.png" alt="" /></a>
+          </li>
+          <li><a href="/index.html">Creation</a></li>
+        </ul>
+      </div>
     </div>
-
-
-
-
-    <div class="middle">
-        <div class="container">
-        <div id="slide" class="carousel slide carousel-fade my-4" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            
-            <div id="slide" class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://source.unsplash.com/1300x600/?nature,water" class="d-block "
-                        alt="image/water.jpg">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Welcome to creation</h2>
-                        <p>Look deep into nature, and then you will understand everything better.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://source.unsplash.com/1300x600/?nature,forest" class="d-block "
-                        alt="image/forest.jpg">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Welcome to creation</h2>
-                        <p>Look deep into nature, and then you will understand everything better.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://source.unsplash.com/1300x600/?nature,mountain" class="d-block "
-                        alt="image/moun.jpg">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Welcome to creation</h2>
-                        <p>Look deep into nature, and then you will understand everything better.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" role="button" data-bs-target="#slide" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" role="button" data-bs-target="#slide" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        </div>
-
-        <div class="container my-5 "style= "padding-left: 20px; padding-right: 20px;">
-            <div class="row mb-2">  
-                <div class="col-md-6">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">Place</strong>
-                            <h3 class="mb-0">Goa</h3>
-                            <div class="mb-1 text-muted">Nov 12</div>
-                            <p class="card-text mb-auto">Goa, is famous for its beaches and places of worship.</p>
-                            <a href="goa.html" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div id="goa" class="col-auto d-none d-lg-block">
-                            <img  class="bd-placeholder-img" width="200" height="250" src="image/goa.jpg"
-                                alt="https://source.unsplash.com/200x250/?nature,goa">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-success">Place</strong>
-                            <h3 class="mb-0">Shimla</h3>
-                            <div class="mb-1 text-muted">Nov 11</div>
-                            <p class="mb-auto">Shimla, is famous for natural beauty and vast landscapes, Shimla Water
-                                Catchment Wildlife Sanctuary is a must-visit.</p>
-                            <a href="shimla.html" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <img class="bd-placeholder-img" width="200" height="250" src="image/shimla.jpg"
-                                alt="https://source.unsplash.com/200x250/?nature,shimla">
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-2">
-                <div class="col-md-6">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">Place</strong>
-                            <h3 class="mb-0">Ladakh</h3>
-                            <div class="mb-1 text-muted">Nov 12</div>
-                            <p class="card-text mb-auto">Ladakh is most famous for breathtaking landscapes, the crystal
-                                clear skies, the highest mountain passes, thrilling adventure activities, Buddhist
-                                Monasteries and festivals.</p>
-                            <a href="ladakh.html" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <img class="bd-placeholder-img" width="200" height="250" src="image/ladakh.jpg"
-                                alt="https://source.unsplash.com/200x250/?nature,ladakh">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-success">Place</strong>
-                            <h3 class="mb-0">Dalhousie
-                            </h3>
-                            <div class="mb-1 text-muted">Nov 11</div>
-                            <p class="mb-auto">Dalhousie is one of the most visited and popular hill stations in the
-                                country. It is known for its pleasant climate and scenic beauty.</p>
-                            <a href="dalhousie.html" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <img class="bd-placeholder-img" width="200" height="250" src="image/dalhousie.jpg"
-                                alt="https://source.unsplash.com/200x250/?nature,dalhousie ">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="right">
+      <ul>
+        <li><a href="">About Us</a></li>
+        <li><a href="/ContactUS.html">Contact Us</a></li>
+        <li><a href="/login.html">Log In</a></li>
+      </ul>
     </div>
+  </header>
+  <!-- header -->
 
-
-
-
-    <div class="bottom">
-        <footer class="container mx-auto">
-            <p class="float-end"><a href="#">Back to top</a></p>
-            <p>© 2021-2022 creation, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-        </footer>
+  <!-- container -->
+  <div class="top">
+    <div class="container">
+      <div class="wrapper">
+        <img src="https://source.unsplash.com/1300x600/?nature" />
+        <img src="https://source.unsplash.com/1300x600/?nature,forest" />
+        <img src="https://source.unsplash.com/1300x600/?nature,beaches" />
+        <img src="https://source.unsplash.com/1300x600/?nature,mountain" />
+      </div>
     </div>
+    <div class="headtext">
+     
+    </div>
+  </div>
+  <!-- container -->
+
+  <!-- middle -->
+  <div class="places">
+    <div class="col-1">
+      <div class="card">
+        <img src="/image/shimla.jpg" alt="" />
+        <div class="text">
+          <h1>Shimla</h1>
+          <p>
+            Shimla, is famous for natural beauty and vast landscapes, Shimla
+            Water Catchment Wildlife Sanctuary is a must-visit.
+          </p>
+          <a href="/places/shimla.html">Continue Reading</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/image/ladakh.jpg" alt="" />
+        <div class="text">
+          <h1>Ladakh</h1>
+          <p>
+            Ladakh is most famous for breathtaking landscapes, the crystal
+            clear skies, the highest mountain passes, thrilling adventure activities, Buddhist
+            Monasteries and festivals.
+          </p>
+          <a href="/places/ladakh.html">Continue Reading</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="card">
+        <img src="/image/dalhousie.jpg" alt="" />
+        <div class="text">
+          <h1>Dalhousie</h1>
+          <p>
+            Dalhousie is one of the most visited and popular hill stations in the
+            country. It is known for its pleasant climate and scenic beauty.
+          </p>
+          <a href="/places/dalhousie.html">Continue Reading</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/image/goa.jpg" alt="" />
+        <div class="text">
+          <h1>Goa</h1>
+          <p>
+            Goa, is famous for its beaches and places of worship.
+          </p>
+          <a href="/places/goa.html">Continue Reading</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- middle -->
+
+  <footer>
+    <p>
+      © 2021-2022 creation, Inc. · <a href="#">Privacy</a> ·
+      <a href="#">Terms</a>
+    </p>
+    <p class="float-end"><a href="#">Back to top</a></p>
+  </footer>
 </body>
 
 </html>
